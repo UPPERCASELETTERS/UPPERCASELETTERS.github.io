@@ -30,8 +30,9 @@ header div.image-holder {
     height: 200px;
 }
 img {
-    height: 400px;
+    height: 200px;
     border-radius: 75%;
+    filter: grayscale(100%);
 }
 
 
@@ -44,7 +45,7 @@ section p, section ul {
 
 footer {
     background-color: #373737;
-    color: #C0B283;
+    color: #7FFF00;
     font-family: 'Courier New', monospace;
     font-size: 2em;
     margin-bottom: 0;
